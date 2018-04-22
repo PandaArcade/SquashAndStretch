@@ -52,7 +52,7 @@ public class SquashAndStretch : MonoBehaviour
         else
         {
             //Calculate the desired squash amount based on the current Y axis velocity.
-            float targetSquash = Mathf.Abs(velocity.y) * VelocityStretch;
+            float targetSquash = -Mathf.Abs(velocity.y) * VelocityStretch;
 
             //Adjust the squash velocity.
             _squashVelocity += (targetSquash - _squash) * Strength * Time.deltaTime;

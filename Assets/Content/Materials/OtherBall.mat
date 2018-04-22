@@ -79,8 +79,8 @@ Material:
     - _SquashCurve: 0.6
     - _SquashEffect: 2
     - _SrcBlend: 1
-    - _StretchCurve: 1.05
-    - _StretchEffect: 1.5
+    - _StretchCurve: 1.1
+    - _StretchEffect: 2
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
